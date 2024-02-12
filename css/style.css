@@ -13,7 +13,7 @@ body {
   gap: 30px;
 }
 .testimonial-container > div img {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 .testimonials h1 {
   color: #fff, (235, 17%, 87%);
