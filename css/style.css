@@ -1,50 +1,51 @@
 @import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
-body{
-    font-family: Barlow Semi Condensed ,san-serif;
-    color:white;
-    background-color: hsl(210, 46%, 95%);
-    font-size: 16px;
+body {
+  font-family: Barlow Semi Condensed, san-serif;
+  color: white;
+  background-color: hsl(210, 46%, 95%);
+  font-size: 16px;
 }
-.testimonial-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-    padding: 20px;
-    gap:20px;
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 20px;
+  gap: 30px;
 }
-.testimonials h1{
-    color:#fff,(235,17%,87%);
+.testimonial-container > div img {
+    border-radius: 50px;
 }
-.dan{
-    background-color: hsl(264, 72%, 74%);
-    grid-row: 1;
-    grid-column: 1/span 2;
-    border-radius: 30px;
+.testimonials h1 {
+  color: #fff, (235, 17%, 87%);
 }
-.jona{
-    background-color: hsl(217, 19%, 35%);
-    grid-row: 1;
-    grid-column: 3;
-    border-radius: 30px;
+.dan {
+  background-color: hsl(264, 72%, 74%);
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  border-radius: 40px;
 }
-.harmon{
-    background-color: hsl(0, 0%, 100%);
-    grid-row: 2;
-    grid-column: 1/span 2;
-    color: hsl(217, 19%, 35%);
-    border-radius: 40px;
-
-
+.jona {
+  background-color: hsl(217, 19%, 35%);
+  grid-row: 1;
+  grid-column: 3;
+  border-radius: 40px;
 }
-.abrams{
-    background-color:hsl(219, 29%, 14%) ;
-    grid-row: 2;
-    grid-column: 2/span 2;
-    border-radius: 40px;
+.harmon {
+  background-color: hsl(0, 0%, 100%);
+  grid-row: 2;
+  color: hsl(217, 19%, 35%);
+  border-radius: 40px;
 }
-.kira{
-    background-color: hsl(0, 0%, 100%);
-    grid-row: 1/span 3;
-    grid-column: 4;
-    color: hsl(217, 19%, 35%); ;
+.abrams {
+  background-color: hsl(219, 29%, 14%);
+  grid-row: 2;
+  grid-column: 2 / span 2;
+  border-radius: 40px;
+}
+.kira {
+  background-color: hsl(0, 0%, 100%);
+  grid-row: 1 / span 3;
+  grid-column: 4;
+  color: hsl(217, 19%, 35%);
+  border-radius: 40px;
 }
